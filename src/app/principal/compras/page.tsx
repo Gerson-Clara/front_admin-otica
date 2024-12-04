@@ -1,10 +1,10 @@
 'use client'
 import { useEffect, useState } from "react"
-import { ComprasI } from "@/utils/types/compras"
+import { CompraI } from "@/utils/types/compras"
 import ItemCompra from "@/components/ItemCompras";
 
 function ControleCompras() {
-  const [compras, setCompras] = useState<ComprasI[]>([])
+  const [compras, setCompras] = useState<CompraI[]>([])
 
   useEffect(() => {
     async function getCompras() {

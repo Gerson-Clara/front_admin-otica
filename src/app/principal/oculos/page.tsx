@@ -1,7 +1,6 @@
 'use client'
 import { useEffect, useState } from "react"
 import Link from 'next/link'
-
 import ItemOculos from '@/components/ItemOculos'
 import { OculosI } from "@/utils/types/oculos"
 

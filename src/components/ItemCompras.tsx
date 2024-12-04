@@ -2,12 +2,12 @@
 import { Dispatch, SetStateAction } from "react"
 import { TiDeleteOutline } from "react-icons/ti"
 import Cookies from "js-cookie"
-import { ComprasI } from "@/utils/types/compras"
+import { CompraI } from "@/utils/types/compras"
 
 interface listaCompraProps {
-  compra: ComprasI,
-  compras: ComprasI[],
-  setCompras: Dispatch<SetStateAction<ComprasI[]>>
+  compra: CompraI,
+  compras: CompraI[],
+  setCompras: Dispatch<SetStateAction<CompraI[]>>
 }
 
 function ItemCompra({ compra, compras, setCompras }: listaCompraProps) {
